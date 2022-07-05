@@ -11,7 +11,7 @@ export default function HomePage({ user }) {
   return (
     <>
       <div className="w-screen px-8">
-        <h1 className="font-semibold text-3xl text-left px-2 pt-6 pb-2 border-[#1f1f1f] border-b-2">
+        <h1 className="font-semibold text-3xl text-left px-2 pt-6 pb-2 border-[#1f1f1f] border-b-[1px]">
           Hello, {user.name}!
         </h1>
         <div className=" h-[85%] ">
