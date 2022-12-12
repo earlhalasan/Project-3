@@ -20,6 +20,8 @@ export default function NoteList({
     body: "",
   });
 
+  console.log(allNotes);
+
   // not sure if this is needed anymore
   //*** function = Getting Data From Backend  ***//
   // useEffect(function () {
